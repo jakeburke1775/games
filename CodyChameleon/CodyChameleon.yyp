@@ -25,16 +25,16 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.2.0.132",
+    "IDEVersion":"2024.11.0.179",
   },
   "name":"CodyChameleon",
   "resources":[
     {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},},
     {"id":{"name":"oMovePlat","path":"objects/oMovePlat/oMovePlat.yy",},},
-    {"id":{"name":"oSimpleMovePlat","path":"objects/oSimpleMovePlat/oSimpleMovePlat.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oSemiSolidMovePlat","path":"objects/oSemiSolidMovePlat/oSemiSolidMovePlat.yy",},},
     {"id":{"name":"oSemiSolidWall","path":"objects/oSemiSolidWall/oSemiSolidWall.yy",},},
+    {"id":{"name":"oSimpleMovePlat","path":"objects/oSimpleMovePlat/oSimpleMovePlat.yy",},},
     {"id":{"name":"oSlope","path":"objects/oSlope/oSlope.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},

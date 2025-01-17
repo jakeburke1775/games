@@ -367,26 +367,26 @@ getControls()
 	
 	//x moveplat xspd
 	// get the movePlat xspd
-	movePlatXspd = 0
-	if instance_exists( myFloorPlat ) { movePlatXspd = myFloorPlat.xspd }
+	movePlatXspd = 0;
+	if instance_exists( myFloorPlat ) { movePlatXspd = myFloorPlat.xspd; }
 	
 	//move with movePLatXspd
 	if !earlyMovePlatXspd
 	{	if place_meeting( x + movePlatXspd, y, oWall )
 		{
 			//scoot up to wall precicely
-			var _subPixel = .5
-			var _pixelCheck = _subPixel + sign( movePlatXspd )
-			while !place_meeting( x + _pixelCheck, y, oWall ) { x += _pixelCheck }
-			movePlatXspd = 0
+			var _subPixel = .5;
+			var _pixelCheck = _subPixel + sign( movePlatXspd );
+			while !place_meeting( x + _pixelCheck, y, oWall ) { x += _pixelCheck; }
+			movePlatXspd = 0;
 		}
 	
 	
 		//move 
-		x += movePlatXspd
+		x += movePlatXspd;
 	}
 
-	//y-snap myself to myFloorPlat
+	//y-snap player to myFloorPlat
 	if instance_exists( myFloorPlat ) 
 	&& ( myFloorPlat.yspd != 0 
 	|| myFloorPlat.object_index == oMovePlat
@@ -397,7 +397,7 @@ getControls()
 		if !place_meeting( x, myFloorPlat.bbox_top, oWall)
 		&& myFloorPlat.bbox_top >= bbox_bottom - movePlatMaxYspd
 		{
-			y = myFloorPlat.bbox_top
+			y = myFloorPlat.bbox_top;
 		}
 		
 		//code made redundant by code below***
@@ -451,7 +451,7 @@ getControls()
 image_blend = c_lime
 if place_meeting( x, y, oWall)
 {
-	image_blend = c_lime
+	image_blend = c_lime;
 }
 	//crushed death code added here, add timer with 3 frames to eliminate small bugs
 	
@@ -459,14 +459,14 @@ if place_meeting( x, y, oWall)
 {//sprite control
 	
 	//walking
-		if abs( xspd ) > 0 { sprite_index = walkSpr }
+		if abs( xspd ) > 0 { sprite_index = walkSpr; }
 	//running
-		if abs( xspd ) > moveSpd[0] { sprite_index = runSpr }
+		if abs( xspd ) > moveSpd[0] { sprite_index = runSpr; }
 	//not moving
-		if xspd == 0 { sprite_index = idleSpr }
+		if xspd == 0 { sprite_index = idleSpr; }
 	//in the air
-		if !onGround { sprite_index = jumpSpr }
+		if !onGround { sprite_index = jumpSpr; }
 
 	//set collision mask
-	mask_index = idleSpr
+	mask_index = idleSpr;
 }

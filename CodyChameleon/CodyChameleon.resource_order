@@ -11,9 +11,9 @@
     {"name":"Terrain Sprites","order":12,"path":"folders/Sprites/Terrain Sprites.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"oSimpleMovePlat","order":5,"path":"objects/oSimpleMovePlat/oSimpleMovePlat.yy",},
     {"name":"oSemiSolidMovePlat","order":1,"path":"objects/oSemiSolidMovePlat/oSemiSolidMovePlat.yy",},
     {"name":"oSemiSolidWall","order":2,"path":"objects/oSemiSolidWall/oSemiSolidWall.yy",},
+    {"name":"oSimpleMovePlat","order":5,"path":"objects/oSimpleMovePlat/oSimpleMovePlat.yy",},
     {"name":"oSlope","order":3,"path":"objects/oSlope/oSlope.yy",},
     {"name":"oWall","order":4,"path":"objects/oWall/oWall.yy",},
     {"name":"sMovePlat","order":5,"path":"sprites/sMovePlat/sMovePlat.yy",},
