@@ -10,32 +10,38 @@ Currently, it is only made of a template that I followed along with on a youtube
 
 ## Differences between GML and JS
 
-###Purpose and Usage
+### Purpose and Usage
+
 GML: Primarily used in GameMaker Studio for game development. It's tailored for creating games with 2D graphics, animations, and interactions.
 
 JS: A general-purpose programming language used for web development, server-side scripting, and creating interactive web applications.
 
-###Syntax and Structure
+### Syntax and Structure
+
 GML: Has a simpler syntax and structure, making it easier for beginners to learn and use for game development.
 
 JS: More complex syntax and structure, with features like closures, prototypes, and higher-order functions, which are essential for advanced web development.
 
-###Environment and Execution
+### Environment and Execution
+
 GML: Runs within the GameMaker Studio environment, which provides tools for designing game assets, testing, and debugging.
 
 JS: Runs in web browsers and on servers (Node.js). It interacts with HTML and CSS to create dynamic web pages.
 
-###Libraries and Frameworks
+### Libraries and Frameworks
+
 GML: Uses built-in functions and libraries provided by GameMaker Studio for game-specific tasks like sprite handling, collision detection, and physics.
 
 JS: Has a vast ecosystem of libraries and frameworks (e.g., React, Angular, jQuery) for various web development tasks.
 
-###Performance
+### Performance
+
 GML: Optimized for performance in game development, with efficient handling of graphics and animations.
 
 JS: Optimized for performance in web applications, with features like asynchronous programming (Promises, async/await) to handle tasks like network requests.
 
-###Community and Resources
+### Community and Resources
+
 GML: Community is focused on game development, with forums, tutorials, and resources specific to GameMaker Studio.
 
 JS: Large and diverse community with extensive resources, tutorials, and documentation available for web development.
