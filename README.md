@@ -1,4 +1,4 @@
-# games
+# Games
 
 Here you will find the incredible range of games I have in development.
 Know that this is GML, not JS.

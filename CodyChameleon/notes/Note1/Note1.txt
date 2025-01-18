@@ -2,11 +2,16 @@ This is meant only to communicate my love for coding and my desire to make games
 Please admire my organization and disregard my spelling. Before you criticize my use of 'var,' know that this is GML, not JS.
 They are very similar, but GML is for making games.
 
-This is right from a tutorial by Payton Burnham. 
+This code has been built around this tutorial by Payton Burnham. 
 Here's the link: https://www.youtube.com/watch?v=kVEBfTmGQUQ
 
-First, I made the code more comprehensive to myself by adding lots of comments. 
+The reason I chose this approach is that its similar to my original recipe, 
+but jump through platforms, moving platforms, slopes(for the most part) are much better polished.
+
+First, I made the code more comprehensive to myself by adding lots of comments. This is ongoing  
 I also made the code collapsible in a way that should make sense to your average Joe.
 
-I added lerping to the speed, which adds a challenge and a more polished look for the player. 
-Because of this, I will need to update the sprites next, which comes with a bit of collision math.
+I added lerping to the speed, which adds a challenge and a more polished look for the player. It is fully plug-and-play and adjustable.
+
+Because of this, I will need to update the sprites next, which will offer some collision challenges. 
+Once this is done I can start adding levels.
