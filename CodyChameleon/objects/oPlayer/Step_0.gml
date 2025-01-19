@@ -457,7 +457,7 @@ if place_meeting( x, y, oWall)
 	
 
 {//sprite control
-	
+	/*
 	//walking
 		if abs( xspd ) > 0 { sprite_index = walkSpr; }
 	//running
@@ -466,7 +466,7 @@ if place_meeting( x, y, oWall)
 		if xspd == 0 { sprite_index = idleSpr; }
 	//in the air
 		if !onGround { sprite_index = jumpSpr; }
-
+	*/
 	//set collision mask
 	mask_index = idleSpr;
 }
