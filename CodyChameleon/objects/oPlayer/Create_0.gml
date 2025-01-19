@@ -54,11 +54,11 @@ runSpr = sPlayerRun
 jumpSpr = sPlayerJump
 
 //moving
-face = 1
+face = 1		//read only
 moveDir = 0
 runType = 0
-moveSpd[0] = 2
-moveSpd[1] = 3.5
+moveSpd[0] = 1.5
+moveSpd[1] = 2.5
 
 moveSpdMax[0] = 2
 moveSpdMax[1] = 3.4
@@ -77,7 +77,7 @@ onGround = true
 
 //jump values for each successive jump 
 		//( each jump can have an array of different values set bu "jumpCount"
-jspd = -4
+jspd = -3
 jumpMax = 1
 jumpCount = 0
 jumpHoldTimer = 0
