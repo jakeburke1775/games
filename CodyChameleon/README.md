@@ -30,7 +30,7 @@ The game progresses with increasing difficulty, requiring Cody to change colors 
 
 - **Jungle**: Easy intro level to teach mechanics.
 - **Beach**: Adds water elements with lower gravity and breath-holding mechanics.
-- **Desert**: Oscillating dirt devils whip you in the sky and you must avoid birds of pray.
+- **Desert**: Oscillating dirt devils whip you in the sky and you must avoid birds of prey.
 - **Mountains**: Features slippery platforms in frozen areas.
 - **Cave and Sewer**: Water features and dark areas with enemies. light will have to be manipulated to hide, expose obstacles, etc.
 - **Reptiville**: The city where Cody meets Cameron.
