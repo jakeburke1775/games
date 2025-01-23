@@ -457,16 +457,15 @@ if place_meeting( x, y, oWall)
 	
 
 {//sprite control
-	/*
+	
 	//walking
-		if abs( xspd ) > 0 { sprite_index = walkSpr; }
+		if abs( xspd ) > 0 { image_speed = .7; }
 	//running
-		if abs( xspd ) > moveSpd[0] { sprite_index = runSpr; }
+		if abs( xspd ) > 0 { image_speed = 1; }
 	//not moving
-		if xspd == 0 { sprite_index = idleSpr; }
+		if xspd == 0 { image_speed = 0; }
 	//in the air
-		if !onGround { sprite_index = jumpSpr; }
-	*/
+		if !onGround { image_speed = 0; }
 	//set collision mask
 	mask_index = idleSpr;
 }
